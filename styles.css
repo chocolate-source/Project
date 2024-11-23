@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display:inline;
+    }
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(Images/More\ Horses.webp);
+    background-blend-mode: normal;
+    background-size:100%;
+    padding-bottom: 30px;   
+}
+
+.h1-header-main {
+    text-align:center;
+    color: azure;
+    font-size: 1.8em;
+    font-weight: bolder;
+    border-bottom: 1px (rgba(255, 255, 255, .3));
+}
+
+.home-section {
+    text-align: center;
+    margin: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    }
+
+.sub-heading {
+    text-align: center;
+	padding-block: 0.5rem;
+	padding-inline: 2rem;
+	margin-block: 1rem 0;
+	overflow: hidden;
+	background-image: linear-gradient(
+		to top left,
+		hsl(211, 41%, 41%) 0,
+		hsl(0 100% 95%)
+	);
+	border: 1px solid hsl(260deg 100% 95%);
+    color: black;
+	border-radius: 0.5rem;
+}
+
+.content {
+    text-align: center;
+    padding-inline: 2rem; 
+    margin: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
